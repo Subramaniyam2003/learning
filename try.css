@@ -1,0 +1,13 @@
+div{
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div div{
+    background-color: red;
+}
+@media screen and (max-width:600px) {
+    div div{background-color: blue;}
+    div{background-color: yellow;}
+}
